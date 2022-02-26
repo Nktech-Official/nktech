@@ -64,7 +64,7 @@
 #header img{
     text-align: right;
 }
-#header .animated{
+#header .animated,.animated{
     animation:up-down 2s ease-in-out infinite alternate-reverse both;
 }
 @-webkit-keyframes up-down{
@@ -89,6 +89,10 @@
 .img-fluid{
     max-width:121%
 }
+#contact-img{
+    margin-bottom: 40px;
+}
+
 @media (max-width:991px ) and (min-width:601px) {
     .navbar-brand{
         font-size: 1.5rem !important;
@@ -101,10 +105,16 @@
     .navbar{
         margin-bottom:240px;
     }
+    #contact{
+        margin-top: -240px;
+    }
 }
 
 @media (max-width:600px){
     .navbar{
         margin-bottom: 120px;
+    }
+    #contact{
+        margin-top: -120px;
     }
 }
