@@ -11,7 +11,17 @@ export default function Navbar() {
                 <NavLink className="navbar-brand" to="/">
                   NkTech
                 </NavLink>
-          
+                <button
+                  className="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span className="navbar-toggler-icon"></span>
+                </button>
                 <div
                   className="collapse navbar-collapse justify-content-end"
                   id="navbarSupportedContent"
@@ -31,7 +41,6 @@ export default function Navbar() {
                         Service
                       </NavLink>
                     </li>
-                 
                     <li className="nav-item">
                       <NavLink className={({ isActive }) => (isActive ? 'nav-link menu_active' : 'nav-link')}to="about">
                         About
@@ -42,6 +51,8 @@ export default function Navbar() {
                         Contact Us
                       </NavLink>
                     </li>
+                    
+                  
                   </ul>
                 </div>
               </div>

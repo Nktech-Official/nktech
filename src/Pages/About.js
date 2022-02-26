@@ -1,6 +1,6 @@
 import React from "react";
-import PageTemplate from "../Components/PageTemplate";
-import HomeRocket from "../Assets/Home-page-rocket.svg"
+import PageTemplate from "../Components/Pages/PageTemplate";
+import about from "../Assets/about.svg"
 
 
 export default function About() {
@@ -10,7 +10,7 @@ export default function About() {
       <PageTemplate
        name="Welcome to About Page "
        
-       imgsrc={HomeRocket}
+       imgsrc={about}
        visit="/contact"
        btname="Contact Now"
        />

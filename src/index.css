@@ -7,6 +7,7 @@
 }
 .navbar{
     background-color: #fff !important;
+    
 }
 .navbar-brand{
     font-size: 1.9rem !important;
@@ -84,7 +85,11 @@
         transform: translateY(-10px);
     }
 }
-@media (max-width:991px) {
+
+.img-fluid{
+    max-width:121%
+}
+@media (max-width:991px ) and (min-width:601px) {
     .navbar-brand{
         font-size: 1.5rem !important;
 
@@ -92,5 +97,14 @@
     .menu_active{
         font-weight: 1000;
         border-bottom: none;
+    }
+    .navbar{
+        margin-bottom:240px;
+    }
+}
+
+@media (max-width:600px){
+    .navbar{
+        margin-bottom: 120px;
     }
 }

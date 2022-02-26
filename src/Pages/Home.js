@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeRocket from "../Assets/Home-page-rocket.svg"
-import PageTemplate from '../Components/PageTemplate'
+import PageTemplate from '../Components/Pages/PageTemplate'
 export default function Home() {
   return (
     <>
@@ -8,7 +8,7 @@ export default function Home() {
     
     name="Grow your business with"
     imgsrc={HomeRocket}
-    visit="/services"
+    visit="/service"
     btname="Get Started"
     />
    

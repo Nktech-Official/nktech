@@ -1,13 +1,13 @@
 import React from 'react'
-import PageTemplate from '../Components/PageTemplate'
-
+import PageTemplate from '../Components/Pages/PageTemplate'
+import contact from "../Assets/Contact.svg"
 export default function Contact() {
   return (
     <> <PageTemplate
     salogon="Grow your business with"
    
-    imgsrc="{HomeRocket}"
-    visit="/services"
+    imgsrc={contact}
+    visit="/service"
     btname="Get Started"
     /></>
   )
