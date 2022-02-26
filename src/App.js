@@ -6,7 +6,7 @@ import './index.css'
 import Navbar from './Components/main/Navbar';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-
+import Footer from './Components/main/Footer';
 import Home from './Pages/Home';
 import Service from './Pages/Service';
 function App() {
@@ -20,6 +20,7 @@ function App() {
       <Route path="/service" element={<Service/>}/>
       <Route path="/Contact" element={<Contact/>}/>
     </Routes>
+    <Footer/>
   </Router>
   
   );
